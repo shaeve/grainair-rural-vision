@@ -59,6 +59,15 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+- Leaflet (Interactive Maps)
+- React-Leaflet
+
+## Features
+
+- **Interactive Leaflet Map**: Real-time air quality monitoring stations across India
+- **AQI Data Visualization**: Color-coded markers showing air quality levels
+- **Location Details**: Detailed air quality metrics for selected locations
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
 ## How can I deploy this project?
 

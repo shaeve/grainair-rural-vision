@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { MapComponent } from '../components/MapComponent';
+import { LeafletMap } from '../components/LeafletMap';
 import { Header } from '../components/Header';
 import { LocationDetails } from '../components/LocationDetails';
 import { IncidentReport } from '../components/IncidentReport';
@@ -18,7 +18,7 @@ const Index = () => {
         <div className="flex flex-col lg:flex-row h-[calc(100vh-80px)]">
           {/* Map Section */}
           <div className="flex-1 relative">
-            <MapComponent 
+            <LeafletMap 
               onLocationSelect={setSelectedLocation}
               selectedLocation={selectedLocation}
             />
